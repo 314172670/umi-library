@@ -1,0 +1,28 @@
+{
+  "name": "umilibrary",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "authors": {
+    "name": "",
+    "email": ""
+  },
+  "repository": "/umilibrary",
+  "scripts": {
+    "dev": "umi-lib doc dev",
+    "build": "umi-lib build"
+  },
+  "peerDependencies": {
+    "antd": "^3.19.8",
+    "react": "16.x"
+  },
+  "devDependencies": {},
+  "license": "MIT",
+  "dependencies": {
+    "antd": "^3.19.8",
+    "babel-plugin-import": "^1.12.0",
+    "classnames": "^2.2.6",
+    "umi-library": "^1.6.0"
+  }
+}
